@@ -91,3 +91,26 @@ You can also use a heroku deployed cbioportal-frontend pull request for serving 
 localStorage.setItem("heroku", "cbioportal-frontend-pr-x")
 ```
 Change `x` to the number of your pull request.
+
+## Run e2e tests
+```
+Install webdriver-manager, which manages standalone Selenium installation:
+```
+npm install -g webdriver-manager
+
+Run updater to get necessary binaries
+```
+webdriver-manager update
+
+Start the webdriver-manager
+```
+webdriver-manager start
+
+Install webdriverio
+```
+npm install webdriverio
+
+Run tests
+```
+./node_modules/.bin/wdio wdio.conf.js
+
