@@ -97,20 +97,20 @@ Change `x` to the number of your pull request.
 Install webdriver-manager, which manages standalone Selenium installation:
 ```
 npm install -g webdriver-manager
-
+```
 Run updater to get necessary binaries
 ```
 webdriver-manager update
-
+```
 Start the webdriver-manager
 ```
 webdriver-manager start
-
+```
 Install webdriverio
 ```
 npm install webdriverio
-
+```
 Run tests
 ```
 ./node_modules/.bin/wdio wdio.conf.js
-
+```
