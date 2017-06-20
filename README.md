@@ -93,7 +93,7 @@ localStorage.setItem("heroku", "cbioportal-frontend-pr-x")
 Change `x` to the number of your pull request.
 
 ## Run e2e tests
-```
+
 Install webdriver-manager, which manages standalone Selenium installation:
 ```
 npm install -g webdriver-manager
