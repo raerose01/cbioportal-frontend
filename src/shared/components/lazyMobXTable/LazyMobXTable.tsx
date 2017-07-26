@@ -513,7 +513,6 @@ export default class LazyMobXTable<T> extends React.Component<LazyMobXTableProps
         this.getDownloadData = this.getDownloadData.bind(this);
         this.getToolbar = this.getToolbar.bind(this);
         this.getTable = this.getTable.bind(this);
-        //this.showMore = this.showMore.bind(this);
         this.getPaginationControls = this.getPaginationControls.bind(this);
         this.getShowMoreButton = this.getShowMoreButton.bind(this);
         this.filterInputReaction = reaction(
@@ -589,14 +588,6 @@ export default class LazyMobXTable<T> extends React.Component<LazyMobXTableProps
             </ButtonToolbar>
         );
     }
-
-    // private showMore() {
-    //     return (
-    //         <Observer>
-    //             { this.getShowMoreButton }
-    //         </Observer>
-    //     );
-    // }  
 
     private getTable() {
         return (
